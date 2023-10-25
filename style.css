@@ -1,0 +1,580 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  h1{
+    color: gold;
+  }
+
+body{
+    background-color: #0F1624;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(images/drawing.png);
+    background-size: cover;
+    background-position: center; */
+}
+#menu{
+    color: #fff;
+    font-size: 3.6rem;
+    cursor: pointer;
+    display: none;
+}
+.container{
+    padding:10px 10%;
+}
+.logo{
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+     color:#ededed;
+     text-decoration: none;
+     font-size: 18px;
+     font-family: font3;
+}
+nav ul li a:hover{
+color: #00abf0;
+}
+.background{
+    background-image: url(images/Black\ And\ Gold\ Elegant\ Business\ Name\ Facebook\ Cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 15em;
+    background-position-y: 6em;
+}
+.header-text p:nth-child(1){
+    color: #fff;
+    margin-top: 7em;
+    font-size: xx-large;
+    position: relative;
+    right: 1em;
+}
+.header-text h1{
+    color: rgb(209, 179, 6);
+    font-size: 3.5em;
+}
+.header-text p{
+    color: #fff;
+    font-family: font6;
+    font-size: x-large;
+    position: relative;
+    right: 1em;
+}
+.header-text button{
+    margin-top: 2em;
+    border-radius: 20px;
+    width: 7em;
+    height: 2.5em;
+    border: 2px solid rgb(209, 179, 6);
+    background-color: #0F1624;
+}
+.header-text button a{
+    text-decoration: none;
+    color: rgb(209, 179, 6);
+}
+.header{
+    display: flex;
+}
+.about{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column;
+    gap: 2rem; */
+    /* background-color: #111b2e; */
+    padding-bottom: 6rem;
+}
+#heading{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: #00abf0;
+}
+.me{
+    height: 23em;
+    width: 15em;
+    border: .2px solid goldenrod;
+    position: relative;
+    top: 10em;
+    left: 2em;
+    /* margin-top: 8em;
+    margin-left: 7em; */
+
+}
+.about-content{
+    margin-left:5em;
+    margin-top: 7.5em;
+    /* border: 2px solid black; */
+    width: 55em;
+    height: 25em;
+}
+.about-content h1{
+color: #ededed;
+margin-top: 1em;
+font-family: font3;
+font-size: xx-large;
+}
+.about-content h3{
+    color: #ededed;
+    /* margin-top: 1em; */
+    font-family: font5;
+    font-size: x-large;
+    }
+#me{
+    color: gold;
+
+}
+.about-content p{
+    color: #d2e6ee;
+    font-family: font6;
+    font-size: large;
+    margin-top: 2em;
+    line-height: 1.5em;
+}
+
+.icons a img{
+    height: 2em;
+    width: 2em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+
+ 
+}
+#about{
+    background-color: #081327;
+}
+#resume{
+    margin-top: 2em;
+    border-radius: 20px;
+    width: 12em;
+    height: 2.5em;
+    border: 2px solid rgb(209, 179, 6);
+    background-color: #0F1624; 
+}
+#resume a{
+    text-decoration: none;
+    color: rgb(209, 179, 6);
+}
+.services h1{
+    color: #ededed;
+margin-top: 3em;
+font-family: font3;
+font-size: xx-large;
+text-align: center;
+}
+
+.service-box{
+    border: 5px solid #071124;
+    background-color: #080e1a;
+    height: 10em;
+    width: 10em;
+    border-radius: 0.5em;
+    /* box-shadow: 2px 4px 2px 4px #080e1a; */
+    transition: .5s ease;
+    
+}
+.service-box:hover{
+    border-color: #0c1d3a;
+    transform: scale(1.02);
+}
+.service-box img{
+    height: 5em;
+    width: 5em;
+    margin-left: 2em;
+}
+.box{
+    display: flex;
+    padding-right: 3em;
+    gap: 2em;
+    margin-top: 3em;
+    margin-left: 12em;
+}
+.service-box h3{
+    color: rgb(207, 187, 70);
+    font-family: font2;
+    text-align: center;
+}
+#projects{
+    margin-top: 4em;
+}
+.pro{
+    height: 18em;
+    width: 20em;
+    border: 2px solid rgb(196, 174, 49);
+    margin-left: 2em;
+    
+}
+#projects h1{
+    color: gold;
+    font-size: 3em;
+    text-align: center;
+    font-family: font5;
+}
+#projects h4{
+    margin-left: 13em;
+    color: rgb(207, 179, 16);
+    font-size: 2em;
+}
+.pro h2,h3,p{
+    color: gold;
+    margin-left: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pro p{
+    color: #ededed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#pro{
+    display: flex;
+    margin-left: 7em;
+   
+}
+  /* #contact{
+    position: relative;
+    top: 3em;
+  } */
+.contact{
+    /* margin-top: 10em; */
+    position: relative;
+    right: 2em;
+}
+.contact h1{
+    color: gold;
+    font-size: 3em;
+    text-align: center;
+    font-family: font3;
+    /* margin-top: 2em; */
+    
+}
+.contact h3{
+    color: rgb(207, 187, 70);
+    text-align: center;
+    font-family: font3;
+}
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 28em;
+    /* margin-right: 15em; */
+    display: inline-block;
+    border: 1px solid #0F1624;
+    border-bottom: 2px solid rgb(207, 187, 70);
+    background-color: #0F1624;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 16em;
+    display: inline-block;
+    border: 1px solid #0F1624;
+    border-bottom: 2px solid rgb(207, 187, 70);
+    background-color: #0F1624;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #message, select {
+    width: 56.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 28em;
+    display: inline-block;
+    border: 1px solid #0F1624;
+    border-bottom: 2px solid rgb(207, 187, 70);
+    background-color: #0F1624;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #contact-form label{
+    font-size: x-large;
+    margin-left: 16em;
+    margin-right: em;
+    color: rgb(207, 187, 70);
+  }
+  .shoot{
+    width: 20%;
+    height: 3em;
+    margin-left: 40%;
+    margin-top: 3%;
+    background-color: #0F1624;
+    color: rgb(207, 187, 70);
+    font-family: font2;
+    font-size: larger;
+  }
+ 
+
+  .footer {
+    background-color: #0F1624;
+    border-top: 2px solid gold;
+    color: #fefefe;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 3em;
+  }
+  
+  .footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+    color: gold;
+  }
+  
+  .footer .content p {
+    margin-bottom: 1.3rem;
+    color: rgb(207, 187, 70);
+  }
+  
+  .footer .content a {
+    text-decoration: none;
+    color: rgb(207, 187, 70);
+  }
+  
+  .footer .content a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .footer .content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .footer {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer .content,
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer {
+      position: unset;
+    }
+  }
+
+
+@media (max-width: 767px) {
+    /* Styles for mobile devices in portrait mode */
+    nav{
+        display: none;
+    }
+    .toggle{
+        display: inline;
+    }
+    
+    .header-text p:nth-child(1){
+        font-size: x-large;
+        position: relative;
+        top: 3.5em;
+    }
+    .header-text p{
+        font-size: large;
+        position: relative;
+        top: 1.5em;
+    }
+    .header-text h1{
+        position: relative;
+        top: 1em;
+    }
+    #menu{
+        display: block;
+    }
+    .me{
+        width: 35em;
+        position: relative;
+        left: 15em;
+
+    }
+    .about-content{
+        justify-content: center;
+        position: relative;
+        right: 10em;
+        top: 25em;
+        width: 65em;
+    }
+    #technology{
+        margin-top: 30em;
+    }
+    .service-box{
+        position: relative;
+        right: 7em;
+    }
+    #fname{
+       position: relative;
+       right: 10em;
+       top: 1em;
+    }
+    #email{
+        position: relative;
+        bottom: 1em;
+        left: 5em;
+        top: 0.25em;
+    }
+   #name{
+    position: relative;
+    right: 18em;
+    height: 4em;
+   }
+   #mail{
+    position: relative;
+    bottom: 4.25em;
+    left: 20em;
+   }
+   #msg{
+        position: relative;
+        right: 10em;
+   }
+   #message{
+    position: relative;
+    top: 1em;
+    right: 18em;
+    width: 70%;
+   }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .header-text p:nth-child(1){
+        position: relative;
+        bottom: 3em;
+    }
+    nav{
+        position: relative;
+        left: 10em;
+    }
+    .header h1{
+        position: relative;
+        bottom: 2.5em;
+    }
+    .header p{
+        position: relative;
+        bottom: 7em;
+    }
+    .header button{
+        position: relative;
+        bottom: 15em;
+    }
+    .about-img img{
+        margin-right: 15em;
+    }
+    .about-content{
+        width: 45em;
+    }
+    #contact-form{
+        position: relative;
+        right: 5em;
+        bottom: 5em;
+    }
+    .box{
+        position: relative;
+        right: 4em;
+    }
+    .service-box img{
+        position: relative;
+        right: 1.5em;
+    }
+    #contact-form{
+        position: relative;
+        right: 10em;
+    }
+    .shoot{
+        position: relative;
+        left: 7em;
+    }
+    #message{
+        width: 70%;
+    }
+    .contact h1{
+        position: relative;
+        bottom: 2em;
+    }
+    .contact h3{
+        position: relative;
+        bottom: 6em;
+    }
+    .services h1,.box{
+        position: relative;
+        top: 2em;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* Styles for small laptops and desktops */
+    .header-text p:nth-child(1){
+        position: relative;
+        bottom: 3em;
+    }
+    .header h1{
+        position: relative;
+        bottom: 2.5em;
+    }
+    .header p{
+        position: relative;
+        bottom: 7em;
+    }
+    .header button{
+        position: relative;
+        bottom: 15em;
+    }
+    nav{
+        position: relative;
+        left: 40em;
+    }
+    .box{
+        position: relative;
+        left: 7em;
+    }
+}
+
